@@ -56,13 +56,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
 ]
-CORS_ORIGIN_WHITELIST = [
-    'https://smartcare-backend.onrender.com',
-    # Add other domains as needed
-]
-CORS_ORIGIN_ALLOW_ALL = True
 
 ROOT_URLCONF = 'smartcare.urls'
 
