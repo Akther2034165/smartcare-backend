@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-!7@%z($pmv&^!4humaxekt4i5a+1u#!&%r9%9q#vne8(c+%6o0
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://smartcare-backend.onrender.com/','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://smartcare-backend.onrender.com/']
 
 
 
